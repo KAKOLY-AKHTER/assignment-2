@@ -208,12 +208,17 @@ img {
 .flower-content h1{
   line-height: 70px;
   font-size: 48px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .flower-content ul li{
   list-style-type: disc;
   padding-left: 20px;
   font-size: 18px;
+}
+
+ ul >li >a{
+  text-decoration: none;
+  
 }
 .img-baged{
   right: 0;
@@ -226,7 +231,7 @@ img {
 /* ........................deals..................... */
 
 .deals-section {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .deals-container {
@@ -267,9 +272,11 @@ img {
   object-fit: cover;
   display: block;
   /* filter: opacity(rgba(0, 0, 0, 0.548)); */
-  opacity: .8;
 
-
+}
+.overly{
+  /* background:rgba(0, 0, 0, 0.7) ; */
+  filter: brightness(0.5) ;
 }
 
 .card-content {
@@ -279,6 +286,8 @@ img {
   transform: translate(-50%, -50%);
   text-align: center;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  
+
 }
 
 .card-content h3 {
@@ -293,13 +302,6 @@ img {
   font-size: 14px;
   text-decoration: underline;
 }
-
-
-
-
-
-
-
 
 
 
@@ -390,6 +392,7 @@ img {
 
 }
 
+
 /* .................... mobile responsive.............................. */
 @media screen and (max-width: 576px) {
   body{
@@ -411,6 +414,10 @@ img {
   }
   .banner {
     align-items: center;
+  }
+  .card-content h3{
+    font-size: 15px;
+
   }
 
   .banner h1 {
