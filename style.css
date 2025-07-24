@@ -175,20 +175,20 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 100px;
   margin: 150px 0 100px 0;
+  flex-wrap: wrap;
 
 }
 
 .flower-img {
   position: relative;
-  flex: 1;
+  flex: 1 1 300px;
 
 }
 .flower-content {
-  flex: 1;
-  padding-left: 20px;
-
+  flex: 1 1 300px;
+ 
 }
 .img-baged {
   position: absolute;
@@ -197,10 +197,30 @@ img {
 }
 
 .img-baged img {
-  height: 286px;
-  width: 100%;
+  max-width:100%;
+  width: 300px;
+  height: auto;
 }
+.img-flower img{
+  max-width: 100%;
+  height: auto;
+}
+.flower-content h1{
+  line-height: 70px;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.flower-content ul li{
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.img-baged{
+  right: 0;
+  top: 0;
+  transform: translate(50%, -50%);
 
+}
 
 
 /* ........................deals..................... */
@@ -333,10 +353,6 @@ img {
 
 }
 
-/* ..............flower container .............  */
-
-
-
 
 
 /* .......................footer................. */
@@ -427,13 +443,7 @@ img {
     margin-top: 10px;
   }
 
-  .flower-img {
-    height: auto;
-    width: 80%;
-
-
-  }
-
+  
 
   .img-baged {
     visibility: hidden;
@@ -451,44 +461,7 @@ img {
 
   }
   
-
-  .img-baged {
-    width: 100%;
-    width: auto;
-
-  }
-
-  .flower-content {
-    text-align: center;
-    flex: 1;
-
-  }
-
-  .flower-container {
-    flex-direction: column;
-    margin: 100px 0 50px 0;
-  }
-
-
-  .flower-img img {
-    width: 100%;
-
-  }
-
-  .flower-content {
-    padding: 55px;
-    height: auto;
-    /* width: 540px; */
-    flex: 1;
-
-  }
-
-  .img-flower {
-    width: 100%;
-    height: auto;
-
-  }
-
+  
   .card-content h3, .card-content a{
     font-size: 10px;
   }
@@ -518,6 +491,10 @@ img {
   }
 .colorful-content h2{
   font-size: 20px;
+}
+.flower-container{
+  
+
 }
 
 
