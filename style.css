@@ -392,6 +392,9 @@ img {
 
 /* .................... mobile responsive.............................. */
 @media screen and (max-width: 576px) {
+  body{
+    overflow-x: hidden;
+  }
 
   .footer-section,
   .btn-input,
@@ -403,15 +406,9 @@ img {
    {
     flex-direction: column;
   }
-
-  /* nav {
-   display: flex;
-   justify-items: space-between;
-   align-items: center;
-   text-align: center;
-
-  } */
-
+  .flower-container{
+    flex-wrap: wrap;
+  }
   .banner {
     align-items: center;
   }
@@ -419,12 +416,9 @@ img {
   .banner h1 {
     font-size: 2rem;
   }
-
-  
-  .zabo-card,
   .card-img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   .icon {
@@ -435,7 +429,7 @@ img {
 
   .plants-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2,1fr);
   }
 
   .banner-img {
@@ -446,9 +440,9 @@ img {
   
 
   .img-baged {
-    visibility: hidden;
-
+    display: none;
   }
+
 
   .colorful-content {
     font-size: 1.5rem;
@@ -466,7 +460,7 @@ img {
     font-size: 10px;
   }
 
-  ul {
+  .menu-container ul {
     visibility: hidden;
   }
 
@@ -492,9 +486,15 @@ img {
 .colorful-content h2{
   font-size: 20px;
 }
-.flower-container{
-  
-
+.flower-content ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 16px;
+    padding-left: 10px;
+    text-align: left;
+  }
+.flower-content h1{
+  padding-left: 10px;
 }
 
 
