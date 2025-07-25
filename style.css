@@ -180,7 +180,7 @@ img {
   justify-content: space-between;
   align-items: center;
   gap: 100px;
-  margin: 150px 0 100px 0;
+  margin: 150px 0 90px 0;
   flex-wrap: wrap;
 
 }
@@ -211,7 +211,7 @@ img {
 }
 .flower-content h1{
   line-height: 70px;
-  font-size: 48px;
+  font-size: 52px;
   margin-bottom: 20px;
 }
 .flower-content ul li{
@@ -504,6 +504,13 @@ img {
 .flower-content h1{
   padding-left: 10px;
   font-size: 2rem;
+
+}
+.flower-container{
+  margin-top: 40px;
+}
+.flower-content{
+  margin-top: -50px;
 }
 
 
