@@ -30,9 +30,6 @@ main {
 
 }
 
-
-
-
 .menu-container , .menu-container ul, .cart
  {
   display: flex;
@@ -489,8 +486,8 @@ img {
     padding: 0 10px;
   }
   .logo{
-   height: 100px;
-   width: 100px;
+   height: 70px;
+   width: 70px;
   }
 .colorful-content h2{
   font-size: 20px;
@@ -518,7 +515,14 @@ img {
 .colorful-section{
   height: 100vh;
 }
+.small-card{
+  border-radius: 0;
+}
 
+html, body{
+   width: 100vw;
+  height: 100vh;
+}
 
 
 }
