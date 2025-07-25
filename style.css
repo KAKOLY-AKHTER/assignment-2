@@ -113,6 +113,10 @@ img {
 .banner-content {
   flex: 1;
 }
+.banner-content{
+  margin-top: 60px;
+}
+
 
 
 
@@ -216,10 +220,7 @@ img {
   font-size: 18px;
 }
 
- ul >li >a{
-  text-decoration: none;
-  
-}
+ 
 .img-baged{
   right: 0;
   top: 0;
@@ -502,6 +503,7 @@ img {
   }
 .flower-content h1{
   padding-left: 10px;
+  font-size: 2rem;
 }
 
 
