@@ -207,11 +207,7 @@ img {
 }
 .img-baged {
   position: absolute;
-  right: -90px;
-  top: -90px;
  
-
-
 }
 
 .img-baged img {
@@ -238,8 +234,8 @@ img {
 
  
 .img-baged{
-  right: 0;
-  top: 0;
+  right: 15px;
+  top: 15px;
   transform: translate(50%, -50%);
 
 }
