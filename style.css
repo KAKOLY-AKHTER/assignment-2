@@ -294,7 +294,7 @@ img {
 }
 .overly{
   /* background:rgba(0, 0, 0, 0.7) ; */
-  filter: brightness(0.5) ;
+  filter: brightness(0.4) ;
 }
 
 .card-content {
@@ -522,6 +522,10 @@ img {
     
   
   }
+  .overly{
+  /* background:rgba(0, 0, 0, 0.7) ; */
+  filter: brightness(0.4) ;
+}
 .flower-content h1{
   padding-left: 10px;
   font-size: 1.6rem;
