@@ -488,8 +488,8 @@ img {
     padding: 0 10px;
   }
   .logo{
-   height: 60px;
-   width: 60px;
+   height: 100px;
+   width: 100px;
   }
 .colorful-content h2{
   font-size: 20px;
@@ -512,6 +512,12 @@ img {
 .flower-content{
   margin-top: -50px;
 }
+
+
+.colorful-section{
+  height: 100vh;
+}
+
 
 
 }
