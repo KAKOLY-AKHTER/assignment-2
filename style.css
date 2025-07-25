@@ -304,8 +304,9 @@ img {
 
 }
 
+
 .card-content h3 {
-  font-size: 40px;
+  font-size: 30px;
   margin: 0 0 10px;
 }
 
@@ -547,5 +548,9 @@ img {
   border: 0;
 }
 
+.card-content h3 {
+  font-size: 15px;
+  
+}
 
 }
