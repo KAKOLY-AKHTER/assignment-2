@@ -308,7 +308,7 @@ img {
   background-image: url(./B12A02-Responsive-Flowers/assets/news-letter-bg.png);
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 100vh;
   position: relative;
   color: white;
   display: flex;
@@ -488,7 +488,8 @@ img {
   .logo{
    height: 70px;
    width: 70px;
-   margin-top: 5px;
+   /* margin-top: 5px; */
+   padding: 5px;
    
   }
 .colorful-content h2{
@@ -513,10 +514,6 @@ img {
   margin-top: -50px;
 }
 
-
-.colorful-section{
-  height: 100vh;
-}
 .small-card{
   border-radius: 0;
 }
